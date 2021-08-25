@@ -28,8 +28,7 @@ if __name__ == '__main__':
     file_path = "fruit.py"
     # Validation of exists file
     while True:
-        # file_path = input("Enter python file name:")
-        file_path = "fruit.py"
+        file_path = input("Enter python file name:")
         if os.path.isfile(file_path):
             break
 
