@@ -15,7 +15,6 @@ class AppleBasket:
     def __str__(self):
         return "A basket of " + str(self.quantity_apple) + " " + str(self.color_apple) + "apples."
 
-
 # OpenU - Maman 13 - Question 2.A
 if __name__ == '__main__':
     InstA = AppleBasket("red", 4)

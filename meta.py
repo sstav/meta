@@ -45,7 +45,6 @@ if __name__ == '__main__':
             print(func_name)
             setattr(obj, func_name, decorator(func))
 
-
 # Main code run obj
     AppleBasket = obj
     InstA = AppleBasket("red", 4)
